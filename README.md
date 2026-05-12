@@ -4,6 +4,9 @@ Local production-grade setup of a platform for AI-assisted bouquet ordering.
 
 Stack: **FastAPI** (Python 3.12) + **PostgreSQL 16** + **React 18 / Vite** + optional integration with **ComfyUI** and an external **LLM** (OpenAI-compatible API).
 
+Notebook link: https://drive.google.com/drive/folders/1UjacwrynoWTXurHkWQ2VHEwLwLe_CRDY?usp=sharing
+YouTube video1: https://www.youtube.com/watch?v=vUEDHcDIW40
+YouTube video2(all workflow): https://www.youtube.com/watch?v=GOu0d4LSTX8
 ---
 
 ## NLP Final Exam Submission (Option 2 — Custom Project)
