@@ -1,0 +1,698 @@
+{
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "cancel": "Cancel",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "currency_kzt": "₸",
+    "language": "Language",
+    "blooming": "blooming…"
+  },
+  "colors": {
+    "pink": "Pink",
+    "white": "White",
+    "red": "Red",
+    "yellow": "Yellow",
+    "blue": "Blue",
+    "purple": "Purple",
+    "orange": "Orange",
+    "green": "Green",
+    "mixed": "Mixed"
+  },
+  "generate": {
+    "back_to_workshop": "Back to workshop",
+    "kicker": "AI assembly",
+    "title_describe": "Describe the",
+    "title_mood": "mood",
+    "point_label": "Workshop:",
+    "step_of": "Step {{current}} of {{total}}",
+    "ai_assistant": "AI assistant",
+    "ai_assistant_on_hint": "Picks flowers for your request",
+    "ai_assistant_off_hint": "You pick flowers manually",
+    "submit_ai": "Generate",
+    "submit_ai_again": "Generate again",
+    "submit_manual": "Build bouquet",
+    "collecting": "AI is composing your bouquet…",
+    "blooming": "blooming…",
+    "ready_idle_title": "Ready to compose something special?",
+    "ready_idle_text": "Fill the form and AI will propose a bouquet, built from this workshop's actual stock.",
+    "failed_title": "Something went wrong.",
+    "failed_default": "Generation failed, please try again.",
+    "ai_badge": "AI bouquet",
+    "manual_badge": "Your bouquet",
+    "total": "total",
+    "order": "Order",
+    "order_already_pending": "This variant is not ready yet.",
+    "submit_failed": "Something went wrong",
+    "order_failed": "Failed",
+    "order_sent_title": "Order sent.",
+    "order_sent_desc": "The florist received it and will reply soon.",
+    "florist_msg_placeholder": "Message for the florist (optional)",
+    "send": "Place order",
+    "sending": "Sending…",
+    "step1": {
+      "name": "Arrangement Type",
+      "title": "Arrangement Type",
+      "subtitle": "Select the type of floral arrangement you want to create",
+      "handheld": "Hand-held bouquet",
+      "handheld_desc": "Classic bouquet wrapped in paper",
+      "vase": "In a vase",
+      "vase_desc": "Tall arrangement in a glass vase",
+      "centerpiece": "Centerpiece",
+      "centerpiece_desc": "Low and wide table centerpiece"
+    },
+    "step2": {
+      "name": "Style & Container",
+      "title": "Style & Container",
+      "subtitle": "Describe the style, container, and overall look",
+      "placeholder": "For example: matte ceramic vase, natural style, no bright accents.",
+      "chips_label": "Suggestions",
+      "chips": {
+        "kraft": "kraft paper",
+        "ceramic": "ceramic vase",
+        "glass": "glass vase",
+        "silk": "silk ribbon",
+        "rustic": "rustic",
+        "minimal": "minimalist",
+        "romantic": "romantic"
+      }
+    },
+    "step3": {
+      "name": "Flowers & Colors",
+      "title": "Flowers & Colors",
+      "subtitle": "Specify your desired flowers, colors, and textures",
+      "prompt_label": "What should it look like?",
+      "prompt_placeholder": "For example: romantic bouquet, soft greenery, no bright accents.",
+      "colors_label": "Colors",
+      "budget_label": "Budget"
+    },
+    "manual": {
+      "title": "Flowers in stock",
+      "subtitle": "Compose the bouquet manually from available flowers",
+      "loading": "Loading stock…",
+      "empty": "No flowers in stock.",
+      "in_stock": "In stock: {{n}}",
+      "qty": "Quantity",
+      "selected_summary": "Selected: {{stems}} stems · {{price}}",
+      "no_selection": "Pick at least one flower"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back.",
+      "subtitle": "Sign in to order a bouquet or run your workshop.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "no_account": "No account yet?",
+      "register_link": "Sign up",
+      "welcome_toast": "Welcome back, {{name}}.",
+      "error_default": "Could not sign in",
+      "demo_label": "demo accounts",
+      "demo_superadmin": "Super admin",
+      "demo_flora": "Florist «Flora»",
+      "demo_lily": "Florist «Lily»",
+      "demo_client": "Customer",
+      "hero_alt": "Floral workshop",
+      "hero_quote": "“Every bouquet is a short letter written with stems and petals.”",
+      "hero_subtitle": "A marketplace of floral workshops with AI-composed arrangements that match your mood, palette and budget."
+    },
+    "register": {
+      "title": "Create an account.",
+      "subtitle": "A few details — and you can build your first bouquet.",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "phone_placeholder": "+7 …",
+      "password": "Password",
+      "submit": "Create account",
+      "submitting": "Signing you up…",
+      "have_account": "Already have an account?",
+      "login_link": "Sign in",
+      "success_toast": "Account created. Welcome!",
+      "error_default": "Could not create account",
+      "hero_alt": "Bouquet",
+      "hero_quote": "“Describe the mood — and our AI will compose three variants from a real workshop's stock.”"
+    },
+    "validation": {
+      "email_invalid": "Enter a valid email",
+      "password_min": "At least {{count}} characters",
+      "name_min": "Please enter your name"
+    }
+  },
+  "header": {
+    "brand_tagline": "flowers · made with care",
+    "language_aria": "Language",
+    "nav": {
+      "users": "Users",
+      "ai_config": "AI config",
+      "points": "My workshops",
+      "orders": "Orders",
+      "search": "Workshops",
+      "my_orders": "Orders"
+    },
+    "cta": {
+      "find_bouquet": "Find a bouquet"
+    },
+    "aria": {
+      "notifications": "Notifications"
+    },
+    "menu": {
+      "profile": "Profile",
+      "my_orders": "My orders",
+      "logout": "Sign out"
+    }
+  },
+  "layout": {
+    "footer": {
+      "tagline": "grown with care",
+      "copyright": "© {{year}} Bouquet AI Atelier",
+      "demo_mode": "demo mode, in-memory"
+    }
+  },
+  "not_found": {
+    "title": "Page not found",
+    "text": "Looks like this twig hasn't bloomed yet. Head back home and try again.",
+    "cta": "Go home"
+  },
+  "order_status": {
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "declined": "Declined",
+    "in_progress": "In progress",
+    "ready_for_pickup": "Ready",
+    "completed": "Completed",
+    "rejected_by_client": "Customer rejected",
+    "cancelled": "Cancelled",
+    "cancelled_by_florist": "Cancelled by florist"
+  },
+  "order_timeline": {
+    "created": "Order placed",
+    "declined": "Declined by florist",
+    "cancelled_by_client": "Cancelled by customer",
+    "accepted": "Accepted by florist",
+    "in_progress": "Composing bouquet",
+    "cancelled_by_florist": "Cancelled by florist",
+    "ready": "Ready for pickup",
+    "rejected_by_client": "Customer rejected",
+    "completed": "Completed",
+    "decline_reason": "Decline reason",
+    "cancel_reason": "Cancel reason",
+    "rejection_reason": "Customer rejection reason"
+  },
+  "notifications": {
+    "title": {
+      "order_created": "New order",
+      "order_accepted": "Order accepted",
+      "order_declined": "Order declined",
+      "order_in_progress": "Bouquet is being composed",
+      "order_ready": "Bouquet is ready",
+      "order_completed": "Order completed",
+      "order_rejected_by_client": "Customer rejected the bouquet",
+      "order_cancelled": "Customer cancelled the order",
+      "order_cancelled_by_florist": "Order cancelled by florist",
+      "role_changed": "Your role changed"
+    },
+    "body": {
+      "point_default": "the workshop",
+      "no_reason": "no reason given",
+      "no_comment": "no comment",
+      "role_changed": "New role: {{role}}",
+      "order_created": "A new order arrived at {{point}}.",
+      "order_accepted": "The florist accepted your order at {{point}}.",
+      "order_declined": "{{point}}: {{reason}}",
+      "order_in_progress": "The bouquet at {{point}} is being composed.",
+      "order_ready": "The bouquet at {{point}} is ready for pickup.",
+      "order_completed": "Customer confirmed the order at {{point}}.",
+      "order_rejected_by_client": "{{point}}: {{reason}}",
+      "order_cancelled": "Customer cancelled the order at {{point}}.",
+      "order_cancelled_by_florist": "{{point}}: {{reason}}"
+    }
+  },
+  "consumer": {
+    "notifications": {
+      "kicker": "Profile",
+      "title": "Notifications",
+      "mark_all": "Mark all read",
+      "loading": "Loading…",
+      "empty_title": "Quiet as a garden",
+      "empty_text": "Place an order — and everything happening with it will show up here."
+    },
+    "search": {
+      "kicker": "floral workshops",
+      "title_part1": "Find your",
+      "title_workshop": "workshop",
+      "title_part2": "and compose",
+      "title_with_history": "a bouquet with a story",
+      "subtitle": "Every workshop has a unique stock and style. Describe a mood or a color — and our AI will compose three variants from a workshop's actual flowers.",
+      "search_placeholder": "City, district or workshop name",
+      "divider": "workshops nearby",
+      "empty_title": "Nothing found",
+      "empty_text": "Try a different name or reset the search.",
+      "ai_kicker": "AI assembly",
+      "ai_title_part1": "When you don't know what to pick —",
+      "ai_title_mood": "describe the mood",
+      "ai_text": "Open any workshop and tap “Generate bouquet”. Get three variants within your budget — in a minute.",
+      "ai_cta": "My previous orders",
+      "hero_alt": "workshop"
+    },
+    "profile": {
+      "kicker": "Profile",
+      "greeting": "Hello,",
+      "name": "Name",
+      "phone": "Phone",
+      "phone_empty": "—",
+      "role_label": "Role",
+      "role_consumer": "Customer",
+      "edit": "Edit",
+      "saving": "Saving…",
+      "save": "Save",
+      "cancel": "Cancel",
+      "updated_toast": "Profile updated.",
+      "error_default": "Failed",
+      "history_title": "Order history",
+      "history_subtitle": "All your bouquets in one place",
+      "notifications_title": "Notifications",
+      "notifications_subtitle": "Order events and more"
+    },
+    "orders_history": {
+      "kicker": "Profile",
+      "title": "Order history",
+      "loading": "Loading…",
+      "empty_title": "No bouquets yet",
+      "empty_text": "Find a workshop and order your first — it's simple.",
+      "empty_cta": "To workshops",
+      "source_ai": "AI composition",
+      "source_portfolio": "Portfolio bouquet",
+      "workshop_label": "Workshop: {{name}}",
+      "total": "total",
+      "status_filter": {
+        "all": "All statuses",
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "in_progress": "In progress",
+        "ready_for_pickup": "Ready",
+        "completed": "Completed",
+        "declined": "Declined",
+        "cancelled": "Cancelled"
+      }
+    },
+    "order_detail": {
+      "back": "Order history",
+      "loading": "Loading…",
+      "source_ai": "AI composition",
+      "source_portfolio": "Portfolio bouquet",
+      "workshop_label": "Workshop: {{name}}",
+      "ai_meta": "Selected by AI",
+      "ai_meta_with_budget": "Selected by AI within budget {{budget}}",
+      "portfolio_meta": "Bouquet from the workshop's portfolio",
+      "result_title": "Ready bouquet",
+      "result_subtitle": "The florist sent a photo — review and confirm.",
+      "result_alt": "ready bouquet",
+      "composition_title": "Composition",
+      "total": "Total",
+      "client_message_label": "Your message to the florist",
+      "next_title": "What's next?",
+      "pending_text": "The florist received your order and will reply soon.",
+      "pending_cancel": "Cancel order",
+      "confirm_cancel": "Cancel order?",
+      "accepted_text": "The florist accepted your order. You'll be notified when they start composing.",
+      "in_progress_text": "The bouquet is being composed. A photo of the finished arrangement is coming soon.",
+      "ready_text": "The bouquet is ready. Review the photo and confirm pickup or decline.",
+      "ready_accept": "Accept bouquet",
+      "ready_reject": "Decline",
+      "final_text": "Order is completed.",
+      "timeline_title": "Timeline",
+      "cancel_toast": "Order cancelled.",
+      "complete_toast": "Thank you! The order is complete.",
+      "reject_toast": "Decline sent to the florist.",
+      "error_default": "Failed",
+      "reject_dialog": {
+        "title": "Decline the bouquet",
+        "subtitle": "Tell us what's wrong — it helps the florist avoid mistakes.",
+        "placeholder": "Decline reason",
+        "cancel": "Cancel",
+        "send": "Send decline"
+      }
+    },
+    "point_detail": {
+      "back": "All workshops",
+      "loading": "Loading…",
+      "description_default": "A small workshop with its own character.",
+      "generate_cta": "Generate a bouquet",
+      "portfolio_divider": "workshop's portfolio",
+      "empty_title": "Portfolio is still blooming",
+      "empty_text": "This workshop has no ready bouquets yet. Try AI assembly.",
+      "empty_cta": "Generate",
+      "price_label": "price",
+      "card_cta": "Order",
+      "dialog": {
+        "title": "Place an order",
+        "msg_label": "Message to the florist (optional)",
+        "msg_placeholder": "For example: for a birthday, by 6 PM.",
+        "cancel": "Cancel",
+        "submitting": "Sending…",
+        "submit": "Send order"
+      },
+      "submit_toast_title": "Order sent.",
+      "submit_toast_desc": "The florist was notified and will reply soon.",
+      "error_default": "Failed"
+    }
+  },
+  "bouquet_card": {
+    "flower_kind_one": "{{count}} flower",
+    "flower_kind_other": "{{count}} flower kinds"
+  },
+  "flower_card": {
+    "out_of_stock": "Out of stock",
+    "qty_unit": "{{n}} pcs",
+    "per_stem": "per stem"
+  },
+  "point_card": {
+    "bouquet_count_one": "{{count}} bouquet",
+    "bouquet_count_other": "{{count}} bouquets",
+    "flower_kind_count_one": "{{count}} flower kind",
+    "flower_kind_count_other": "{{count}} flower kinds"
+  },
+  "image_upload": {
+    "only_images": "Only images can be uploaded.",
+    "too_large": "File is larger than 5 MB.",
+    "failed_default": "Could not upload the file.",
+    "uploading": "Uploading…",
+    "click_to_pick": "Tap to pick a photo",
+    "replace": "Replace",
+    "alt": "upload"
+  },
+  "florist": {
+    "points_list": {
+      "kicker": "Workshop",
+      "title": "My workshops",
+      "subtitle": "Every workshop has its own stock and portfolio. Manage them in parallel.",
+      "create": "Create workshop",
+      "create_short": "Create",
+      "loading": "Loading…",
+      "empty_title": "No workshops yet",
+      "empty_text": "Create the first one — add a name, address and cover.",
+      "flowers_count": "{{count}} flowers",
+      "bouquets_count": "{{count}} bouquets",
+      "create_toast": "Workshop created.",
+      "error_default": "Could not create",
+      "dialog": {
+        "title": "Create workshop",
+        "image_hint": "Cover image. JPG/PNG up to 5 MB.",
+        "name": "Name",
+        "name_placeholder": "Garden on Dostyk",
+        "address": "Address",
+        "address_placeholder": "Almaty, Dostyk Ave 89",
+        "description": "Description",
+        "description_placeholder": "A small workshop in the city center…",
+        "cancel": "Cancel",
+        "creating": "Creating…",
+        "create": "Create"
+      },
+      "validation": {
+        "name_min": "Too short",
+        "address_min": "Please enter an address"
+      }
+    },
+    "point_detail": {
+      "back": "All workshops",
+      "loading": "Loading…",
+      "change_cover": "Change cover",
+      "stats": "{{flowers}} flowers · {{bouquets}} bouquets",
+      "tabs": {
+        "flowers": "Stock",
+        "portfolio": "Portfolio"
+      },
+      "add_bouquet": "Add bouquet",
+      "add_flower": "Add flower",
+      "add": "Add",
+      "empty_flowers_title": "Stock is empty",
+      "empty_flowers_text": "Add your first stems — needed for the portfolio and AI generation.",
+      "empty_portfolio_title": "Portfolio is empty",
+      "empty_portfolio_text": "Compose ready arrangements from your stock. Customers will see them on the workshop page.",
+      "confirm_remove_flower": "Remove «{{name}}» from stock?",
+      "confirm_remove_bouquet": "Remove «{{name}}» from portfolio?",
+      "cover_updated_toast": "Cover updated.",
+      "flower_removed_toast": "Flower removed.",
+      "bouquet_removed_toast": "Bouquet removed from portfolio.",
+      "error_default": "Failed",
+      "flower_dialog": {
+        "title_new": "New flower",
+        "title_edit": "Edit flower",
+        "image_required": "Upload an image",
+        "name": "Name",
+        "name_placeholder": "Pink O'Hara rose",
+        "price_per_stem": "Price per stem",
+        "quantity": "Quantity",
+        "color_tags": "Color tags",
+        "color_tags_required": "Pick at least one color",
+        "description": "Description",
+        "description_placeholder": "Fragrant garden rose…",
+        "cancel": "Cancel",
+        "saving": "Saving…",
+        "save": "Save",
+        "add": "Add",
+        "added_toast": "Flower added.",
+        "updated_toast": "Flower updated."
+      },
+      "bouquet_dialog": {
+        "title": "New bouquet in portfolio",
+        "no_flowers": "Add flowers to stock first to compose a bouquet.",
+        "image_required": "Upload an image",
+        "name": "Name",
+        "name_placeholder": "Morning in the garden",
+        "description": "Description",
+        "price": "Price",
+        "calc_total": "Composition total",
+        "color_tags": "Color tags",
+        "composition": "Composition",
+        "composition_required": "Add at least one flower",
+        "composition_empty": "Empty so far. Add at least one flower.",
+        "add_flower": "Add flower",
+        "cancel": "Cancel",
+        "saving": "Saving…",
+        "add": "Add",
+        "added_toast": "Bouquet added to portfolio."
+      }
+    },
+    "orders_list": {
+      "kicker": "Inbox",
+      "title": "Orders",
+      "subtitle": "Accept, compose, hand over — the status moves with one tap.",
+      "loading": "Loading…",
+      "empty_title": "Quiet inbox",
+      "empty_text": "When customers send orders — they'll show up here.",
+      "table": {
+        "order": "Order",
+        "point": "Workshop",
+        "source": "Source",
+        "total": "Total",
+        "status": "Status",
+        "created": "Created"
+      },
+      "source_ai": "AI",
+      "source_portfolio": "portfolio",
+      "status_filter": {
+        "all": "All statuses",
+        "pending": "Pending",
+        "accepted": "Accepted",
+        "in_progress": "In progress",
+        "ready_for_pickup": "Ready",
+        "completed": "Completed",
+        "declined": "Declined",
+        "cancelled": "Cancelled by customer",
+        "cancelled_by_florist": "Cancelled by you",
+        "rejected_by_client": "Customer rejected"
+      }
+    },
+    "order_detail": {
+      "back": "All orders",
+      "loading": "Loading…",
+      "source_ai": "AI composition",
+      "source_portfolio": "Portfolio bouquet",
+      "ai_variant": "AI variant #{{n}}",
+      "ai_budget": "Customer budget: {{budget}}",
+      "from_portfolio": "From portfolio",
+      "client_message_label": "Customer's message",
+      "composition_title": "Composition",
+      "total": "Total",
+      "result_title": "Ready bouquet",
+      "result_subtitle": "Sent to the customer for review.",
+      "result_alt": "Ready bouquet",
+      "actions_title": "Actions",
+      "accept": "Accept",
+      "decline": "Decline",
+      "start": "Start composing",
+      "cancel": "Cancel",
+      "ready_cta": "Ready — upload photo",
+      "waiting_pickup": "Waiting for the customer to confirm — they'll accept or decline.",
+      "closed": "Order is closed. No further actions.",
+      "timeline_title": "Timeline",
+      "client_title": "Customer",
+      "accept_toast": "Order accepted. Stock has been deducted.",
+      "start_toast": "Composing started.",
+      "decline_toast": "Order declined.",
+      "cancel_toast": "Order cancelled, flowers returned to stock.",
+      "ready_toast": "Bouquet marked as ready.",
+      "out_of_stock_title": "Not enough flowers in stock",
+      "shortage_line": "· {{name}}: need {{needed}}, have {{have}}",
+      "accept_failed": "Could not accept",
+      "error_default": "Failed",
+      "decline_dialog": {
+        "title": "Decline reason",
+        "placeholder": "For example: required flowers are out of stock today.",
+        "cancel": "Cancel",
+        "confirm": "Decline"
+      },
+      "cancel_dialog": {
+        "title": "Cancel order",
+        "subtitle": "Flowers will be returned to stock automatically.",
+        "placeholder": "Explain to the customer why you're cancelling.",
+        "keep": "Don't cancel",
+        "confirm": "Cancel"
+      },
+      "ready_dialog": {
+        "title": "Photo of the ready bouquet",
+        "subtitle": "The customer will see this photo and confirm pickup.",
+        "cancel": "Cancel",
+        "confirm": "Hand over to customer"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "kicker": "Management",
+      "title": "Users",
+      "subtitle": "Create, edit and control access for all roles.",
+      "create": "Create user",
+      "search_placeholder": "Search by email or name",
+      "loading": "Loading…",
+      "empty_title": "Nobody found",
+      "empty_text": "Try changing filters or resetting the search.",
+      "filters": {
+        "all_roles": "All roles",
+        "all_statuses": "All statuses",
+        "active": "Active",
+        "inactive": "Blocked"
+      },
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "created": "Created",
+        "you_badge": "it's you",
+        "active": "Active",
+        "inactive": "Blocked",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "role_label": {
+        "superadmin": "Super admin",
+        "floristadmin": "Florist",
+        "consumer": "Customer"
+      },
+      "delete_dialog": {
+        "title": "Delete user permanently?",
+        "description": "This deletes {{email}} and cascades all related data: orders, notifications, AI generations, refresh tokens. If they're a florist — their workshops, flowers and portfolio are also removed. Cannot be undone.",
+        "cancel": "Cancel",
+        "deleting": "Deleting…",
+        "confirm": "Delete permanently",
+        "success": "User and all related data permanently deleted.",
+        "error": "Could not delete"
+      },
+      "create_dialog": {
+        "title": "Create user",
+        "subtitle": "Any role. Email must be unique.",
+        "name": "Name",
+        "role": "Role",
+        "email": "Email",
+        "phone": "Phone",
+        "password": "Password",
+        "cancel": "Cancel",
+        "creating": "Creating…",
+        "create": "Create",
+        "success": "User created.",
+        "error": "Could not create user"
+      },
+      "edit_dialog": {
+        "title": "Edit user",
+        "name": "Name",
+        "phone": "Phone",
+        "role": "Role",
+        "active": "Active",
+        "cancel": "Cancel",
+        "saving": "Saving…",
+        "save": "Save",
+        "success": "Changes saved.",
+        "error": "Could not update"
+      }
+    }
+  },
+  "superadmin": {
+    "ai_config": {
+      "kicker": "AI · Pipeline",
+      "title": "Generation config",
+      "subtitle": "Prompts, sampler, image size and LLM behavior. Changes apply to new generations without restart.",
+      "updated": "Updated: {{date}}",
+      "save_toast": "Configuration updated",
+      "save_error": "Could not save",
+      "reset_toast": "Reset to default values",
+      "reset_error": "Could not reset",
+      "footer": {
+        "dirty": "Unsaved changes",
+        "clean": "No changes",
+        "reset": "Reset to default",
+        "cancel": "Discard",
+        "save": "Save",
+        "saving": "Saving…"
+      },
+      "reset_dialog": {
+        "title": "Reset configuration?",
+        "description": "All fields will return to default values (system prompt, negative prompt, sampler, sizes, budget, temperature, retries). This action cannot be undone, but you can save current values manually before resetting.",
+        "cancel": "Cancel",
+        "confirm": "Reset",
+        "resetting": "Resetting…"
+      },
+      "pipeline": {
+        "title": "Pipeline",
+        "subtitle": "SDXL (Juggernaut-XL v9) — best quality, more recognizable flowers in frame, correct hands. SD 1.5 (DreamShaper 8) — faster on weaker GPUs, fallback for issues.",
+        "version_label": "Pipeline version",
+        "version_sdxl": "SDXL — Juggernaut-XL v9 (recommended)",
+        "version_sd15": "SD 1.5 — DreamShaper 8 (legacy)"
+      },
+      "system_prompt": {
+        "title": "LLM system prompt",
+        "subtitle": "Main instruction for the florist LLM. Contains rules for budget, composition, response format.",
+        "counter": "{{count}} / 8000 characters"
+      },
+      "sd": {
+        "title": "Stable Diffusion",
+        "subtitle": "Negative prompt and KSampler parameters. Image size must be a multiple of 8.",
+        "negative_label": "Negative prompt",
+        "sampler_label": "Sampler",
+        "steps_label": "Steps (1–150)",
+        "cfg_label": "CFG (1.0–30.0)",
+        "width_label": "Width (multiple of 8)",
+        "height_label": "Height (multiple of 8)",
+        "max_refs_label": "IPAdapter references (1–10)",
+        "max_refs_hint": "How many photos of the selected flowers are passed to IPAdapter. More — more unique flowers actually appear in the frame, but slower rendering."
+      },
+      "budget": {
+        "title": "Budget",
+        "subtitle": "Allowed deviation of the bouquet total from the customer's budget. 0.6 = -40%, 1.4 = +40%. Lower < Upper.",
+        "lower_label": "Lower bound",
+        "upper_label": "Upper bound"
+      },
+      "llm": {
+        "title": "LLM behavior",
+        "subtitle": "Temperature — answer stochasticity (0–2). Retries — how many times to repeat the request on validation error.",
+        "temp_label": "Temperature (0.0–2.0)",
+        "retries_label": "Max retries (1–20)"
+      }
+    }
+  }
+}

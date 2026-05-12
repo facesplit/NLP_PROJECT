@@ -1,0 +1,704 @@
+{
+  "common": {
+    "back": "Назад",
+    "next": "Далее",
+    "cancel": "Отмена",
+    "loading": "Загружается…",
+    "retry": "Попробовать снова",
+    "currency_kzt": "₸",
+    "language": "Язык",
+    "blooming": "распускается…"
+  },
+  "colors": {
+    "pink": "Розовый",
+    "white": "Белый",
+    "red": "Красный",
+    "yellow": "Жёлтый",
+    "blue": "Голубой",
+    "purple": "Фиолетовый",
+    "orange": "Оранжевый",
+    "green": "Зелёный",
+    "mixed": "Микс"
+  },
+  "generate": {
+    "back_to_workshop": "К мастерской",
+    "kicker": "AI-сборка",
+    "title_describe": "Опишите",
+    "title_mood": "настроение",
+    "point_label": "Точка:",
+    "step_of": "Шаг {{current}} из {{total}}",
+    "ai_assistant": "AI-ассистент",
+    "ai_assistant_on_hint": "Подбирает цветы под ваш запрос",
+    "ai_assistant_off_hint": "Вы выбираете цветы вручную",
+    "submit_ai": "Сгенерировать",
+    "submit_ai_again": "Сгенерировать ещё",
+    "submit_manual": "Собрать букет",
+    "collecting": "AI собирает букет…",
+    "blooming": "распускается…",
+    "ready_idle_title": "Готовы собрать что-то особенное?",
+    "ready_idle_text": "Заполните форму и AI предложит букет, собранный из настоящего склада этой мастерской.",
+    "failed_title": "Не получилось.",
+    "failed_default": "Сбой генерации, попробуйте ещё раз.",
+    "ai_badge": "AI-букет",
+    "manual_badge": "Ваш букет",
+    "total": "итого",
+    "order": "Заказать",
+    "order_already_pending": "Этот вариант ещё не готов.",
+    "submit_failed": "Что-то пошло не так",
+    "order_failed": "Не удалось",
+    "order_sent_title": "Заявка отправлена.",
+    "order_sent_desc": "Флорист получил её и скоро ответит.",
+    "florist_msg_placeholder": "Сообщение флористу (необязательно)",
+    "send": "Заказать",
+    "sending": "Отправляем…",
+    "step1": {
+      "name": "Тип композиции",
+      "title": "Тип композиции",
+      "subtitle": "Выберите формат букета",
+      "handheld": "Букет в руке",
+      "handheld_desc": "Классический букет, обёрнутый в бумагу",
+      "vase": "В вазе",
+      "vase_desc": "Высокая композиция в стеклянной вазе",
+      "centerpiece": "Центральная композиция",
+      "centerpiece_desc": "Низкая широкая композиция для стола"
+    },
+    "step2": {
+      "name": "Стиль и контейнер",
+      "title": "Стиль и контейнер",
+      "subtitle": "Опишите стиль, упаковку и общий вид",
+      "placeholder": "Например: матовая керамическая ваза, природный стиль, без ярких акцентов.",
+      "chips_label": "Подсказки",
+      "chips": {
+        "kraft": "крафтовая бумага",
+        "ceramic": "керамическая ваза",
+        "glass": "стеклянная ваза",
+        "silk": "шёлковая лента",
+        "rustic": "рустик",
+        "minimal": "минимализм",
+        "romantic": "романтичный"
+      }
+    },
+    "step3": {
+      "name": "Цветы и палитра",
+      "title": "Цветы и палитра",
+      "subtitle": "Опишите желаемые цветы, оттенки и текстуры",
+      "prompt_label": "Что должно получиться?",
+      "prompt_placeholder": "Например: романтичный букет, лёгкая зелень, без ярких акцентов.",
+      "colors_label": "Цвета",
+      "budget_label": "Бюджет"
+    },
+    "manual": {
+      "title": "Цветы со склада",
+      "subtitle": "Соберите букет вручную из доступных цветов",
+      "loading": "Загружаем склад…",
+      "empty": "На складе нет цветов в наличии.",
+      "in_stock": "В наличии: {{n}}",
+      "qty": "Количество",
+      "selected_summary": "Выбрано: {{stems}} стеблей · {{price}}",
+      "no_selection": "Выберите хотя бы один цветок"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "С возвращением.",
+      "subtitle": "Войдите, чтобы заказать букет или продолжить работу мастерской.",
+      "email": "Email",
+      "password": "Пароль",
+      "submit": "Войти",
+      "submitting": "Заходим…",
+      "no_account": "Нет аккаунта?",
+      "register_link": "Зарегистрироваться",
+      "welcome_toast": "Добро пожаловать, {{name}}.",
+      "error_default": "Не удалось войти",
+      "demo_label": "demo accounts",
+      "demo_superadmin": "Супер-админ",
+      "demo_flora": "Флорист «Флора»",
+      "demo_lily": "Флорист «Лилия»",
+      "demo_client": "Клиент",
+      "hero_alt": "Цветочная мастерская",
+      "hero_quote": "«Каждый букет — короткое письмо, написанное стеблями и лепестками».",
+      "hero_subtitle": "Маркетплейс цветочных мастерских с AI-сборкой композиций по вашему настроению, цвету и бюджету."
+    },
+    "register": {
+      "title": "Создайте аккаунт.",
+      "subtitle": "Несколько строк — и можно собирать первый букет.",
+      "name": "Имя",
+      "email": "Email",
+      "phone": "Телефон",
+      "phone_placeholder": "+7 …",
+      "password": "Пароль",
+      "submit": "Создать аккаунт",
+      "submitting": "Регистрируем…",
+      "have_account": "Уже есть аккаунт?",
+      "login_link": "Войти",
+      "success_toast": "Аккаунт создан. Добро пожаловать!",
+      "error_default": "Не удалось создать аккаунт",
+      "hero_alt": "Букет",
+      "hero_quote": "«Опишите настроение — и наш AI соберёт три варианта из реального склада точки»."
+    },
+    "validation": {
+      "email_invalid": "Введите корректный email",
+      "password_min": "Не меньше {{count}} символов",
+      "name_min": "Укажите имя"
+    }
+  },
+  "header": {
+    "brand_tagline": "flowers · made with care",
+    "language_aria": "Language",
+    "nav": {
+      "users": "Пользователи",
+      "ai_config": "AI конфиг",
+      "points": "Мои точки",
+      "orders": "Заявки",
+      "search": "Точки",
+      "my_orders": "Заказы"
+    },
+    "cta": {
+      "find_bouquet": "Найти букет"
+    },
+    "aria": {
+      "notifications": "Уведомления"
+    },
+    "menu": {
+      "profile": "Профиль",
+      "my_orders": "Мои заказы",
+      "logout": "Выйти"
+    }
+  },
+  "layout": {
+    "footer": {
+      "tagline": "выращено с заботой",
+      "copyright": "© {{year}} Bouquet AI Atelier",
+      "demo_mode": "демо-режим, in-memory"
+    }
+  },
+  "not_found": {
+    "title": "Не нашли страницу",
+    "text": "Кажется, эта веточка ещё не распустилась. Вернитесь к началу и попробуйте снова.",
+    "cta": "На главную"
+  },
+  "order_status": {
+    "pending": "Ожидает",
+    "accepted": "Принят",
+    "declined": "Отклонён",
+    "in_progress": "В сборке",
+    "ready_for_pickup": "Готов",
+    "completed": "Завершён",
+    "rejected_by_client": "Отказ клиента",
+    "cancelled": "Отменён",
+    "cancelled_by_florist": "Отменён флористом"
+  },
+  "order_timeline": {
+    "created": "Заявка создана",
+    "declined": "Отклонено флористом",
+    "cancelled_by_client": "Отменено клиентом",
+    "accepted": "Принят флористом",
+    "in_progress": "Сборка букета",
+    "cancelled_by_florist": "Отменено флористом",
+    "ready": "Готов к выдаче",
+    "rejected_by_client": "Клиент отказался",
+    "completed": "Завершён",
+    "decline_reason": "Причина отказа",
+    "cancel_reason": "Причина отмены",
+    "rejection_reason": "Причина отказа клиента"
+  },
+  "notifications": {
+    "title": {
+      "order_created": "Новая заявка",
+      "order_accepted": "Заявка принята",
+      "order_declined": "Заявку отклонили",
+      "order_in_progress": "Букет начали собирать",
+      "order_ready": "Букет готов",
+      "order_completed": "Заказ завершён",
+      "order_rejected_by_client": "Клиент отказался от букета",
+      "order_cancelled": "Клиент отменил заявку",
+      "order_cancelled_by_florist": "Заказ отменён флористом",
+      "role_changed": "Изменилась ваша роль"
+    },
+    "body": {
+      "point_default": "точке",
+      "no_reason": "без причины",
+      "no_comment": "без комментария",
+      "role_changed": "Новая роль: {{role}}",
+      "order_created": "Поступила новая заявка {{point}}.",
+      "order_accepted": "Флорист принял ваш заказ {{point}}.",
+      "order_declined": "{{point}}: {{reason}}",
+      "order_in_progress": "Букет {{point}} начали собирать.",
+      "order_ready": "Букет {{point}} готов к выдаче.",
+      "order_completed": "Клиент подтвердил заказ {{point}}.",
+      "order_rejected_by_client": "{{point}}: {{reason}}",
+      "order_cancelled": "Клиент отменил заявку {{point}}.",
+      "order_cancelled_by_florist": "{{point}}: {{reason}}"
+    }
+  },
+  "consumer": {
+    "notifications": {
+      "kicker": "Профиль",
+      "title": "Уведомления",
+      "mark_all": "Прочитать всё",
+      "loading": "Загружаем…",
+      "empty_title": "Тихо как в саду",
+      "empty_text": "Заведите заказ — и всё, что с ним происходит, появится здесь."
+    },
+    "search": {
+      "kicker": "цветочные мастерские",
+      "title_part1": "Найдите свою",
+      "title_workshop": "мастерскую",
+      "title_part2": "и соберите",
+      "title_with_history": "букет с историей",
+      "subtitle": "Каждая точка — уникальный склад и стиль. Опишите настроение или цвет — наш AI соберёт три варианта прямо из реальных цветов мастерской.",
+      "search_placeholder": "Город, район или название мастерской",
+      "divider": "мастерские поблизости",
+      "empty_title": "Ничего не нашли",
+      "empty_text": "Попробуйте ввести другое название или сбросьте поиск.",
+      "ai_kicker": "AI-сборка",
+      "ai_title_part1": "Когда не знаете, что выбрать —",
+      "ai_title_mood": "опишите настроение",
+      "ai_text": "Откройте любую точку и нажмите «Сгенерировать букет». Получите три варианта в рамках вашего бюджета — за минуту.",
+      "ai_cta": "Мои предыдущие заказы",
+      "hero_alt": "мастерская"
+    },
+    "profile": {
+      "kicker": "Профиль",
+      "greeting": "Здравствуйте,",
+      "name": "Имя",
+      "phone": "Телефон",
+      "phone_empty": "—",
+      "role_label": "Роль",
+      "role_consumer": "Клиент",
+      "edit": "Редактировать",
+      "saving": "Сохраняем…",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "updated_toast": "Профиль обновлён.",
+      "error_default": "Не удалось",
+      "history_title": "История заказов",
+      "history_subtitle": "Все ваши букеты в одном месте",
+      "notifications_title": "Уведомления",
+      "notifications_subtitle": "События по заказам и не только"
+    },
+    "orders_history": {
+      "kicker": "Профиль",
+      "title": "История заказов",
+      "loading": "Загружаем…",
+      "empty_title": "Букетов пока не было",
+      "empty_text": "Найдите мастерскую и закажите первый — это просто.",
+      "empty_cta": "К мастерским",
+      "source_ai": "AI-композиция",
+      "source_portfolio": "Букет из портфолио",
+      "workshop_label": "Мастерская: {{name}}",
+      "total": "сумма",
+      "status_filter": {
+        "all": "Все статусы",
+        "pending": "Ожидают",
+        "accepted": "Приняты",
+        "in_progress": "В сборке",
+        "ready_for_pickup": "Готовы",
+        "completed": "Завершены",
+        "declined": "Отклонены",
+        "cancelled": "Отменены"
+      }
+    },
+    "order_detail": {
+      "back": "История заказов",
+      "loading": "Загружаем…",
+      "source_ai": "AI-композиция",
+      "source_portfolio": "Букет из портфолио",
+      "workshop_label": "Мастерская: {{name}}",
+      "ai_meta": "Подобрано AI",
+      "ai_meta_with_budget": "Подобрано AI под бюджет {{budget}}",
+      "portfolio_meta": "Букет из портфолио мастерской",
+      "result_title": "Готовый букет",
+      "result_subtitle": "Флорист передаёт фото — посмотрите и подтвердите.",
+      "result_alt": "готовый букет",
+      "composition_title": "Состав",
+      "total": "Итого",
+      "client_message_label": "Ваше сообщение флористу",
+      "next_title": "Что дальше?",
+      "pending_text": "Флорист получил заявку и скоро ответит.",
+      "pending_cancel": "Отменить заявку",
+      "confirm_cancel": "Отменить заявку?",
+      "accepted_text": "Флорист принял заявку. Как только начнёт собирать — придёт уведомление.",
+      "in_progress_text": "Букет собирают. Скоро будет фото готовой композиции.",
+      "ready_text": "Букет готов. Посмотрите фото и подтвердите выдачу или откажитесь.",
+      "ready_accept": "Принять букет",
+      "ready_reject": "Отказаться",
+      "final_text": "Заказ завершён.",
+      "timeline_title": "Хронология",
+      "cancel_toast": "Заявка отменена.",
+      "complete_toast": "Спасибо! Заказ завершён.",
+      "reject_toast": "Отказ отправлен флористу.",
+      "error_default": "Не удалось",
+      "reject_dialog": {
+        "title": "Отказ от букета",
+        "subtitle": "Расскажите, что не так — поможете флористу избежать ошибок.",
+        "placeholder": "Причина отказа",
+        "cancel": "Отмена",
+        "send": "Отправить отказ"
+      }
+    },
+    "point_detail": {
+      "back": "Все мастерские",
+      "loading": "Загружаем…",
+      "description_default": "Камерная мастерская со своим характером.",
+      "generate_cta": "Сгенерировать букет",
+      "portfolio_divider": "портфолио мастерской",
+      "empty_title": "Портфолио ещё распускается",
+      "empty_text": "У этой точки пока нет готовых букетов. Попробуйте AI-сборку.",
+      "empty_cta": "Сгенерировать",
+      "price_label": "цена",
+      "card_cta": "Заказать",
+      "dialog": {
+        "title": "Оформить заявку",
+        "msg_label": "Сообщение флористу (необязательно)",
+        "msg_placeholder": "Например: на день рождения, к 18:00.",
+        "cancel": "Отмена",
+        "submitting": "Отправляем…",
+        "submit": "Отправить заявку"
+      },
+      "submit_toast_title": "Заявка отправлена.",
+      "submit_toast_desc": "Флорист получил уведомление и скоро ответит.",
+      "error_default": "Не удалось"
+    }
+  },
+  "bouquet_card": {
+    "flower_kind_one": "{{count}} цветок",
+    "flower_kind_few": "{{count}} вида цветов",
+    "flower_kind_many": "{{count}} вид(ов) цветов",
+    "flower_kind_other": "{{count}} вид(ов) цветов"
+  },
+  "flower_card": {
+    "out_of_stock": "Нет в наличии",
+    "qty_unit": "{{n}} шт",
+    "per_stem": "за стебель"
+  },
+  "point_card": {
+    "bouquet_count_one": "{{count}} букет",
+    "bouquet_count_few": "{{count}} букета",
+    "bouquet_count_many": "{{count}} букетов",
+    "bouquet_count_other": "{{count}} букетов",
+    "flower_kind_count_one": "{{count}} вид цветов",
+    "flower_kind_count_few": "{{count}} вида цветов",
+    "flower_kind_count_many": "{{count}} видов цветов",
+    "flower_kind_count_other": "{{count}} видов цветов"
+  },
+  "image_upload": {
+    "only_images": "Можно загружать только изображения.",
+    "too_large": "Файл больше 5 МБ.",
+    "failed_default": "Не удалось загрузить файл.",
+    "uploading": "Загружаем…",
+    "click_to_pick": "Нажмите, чтобы выбрать фото",
+    "replace": "Заменить",
+    "alt": "upload"
+  },
+  "florist": {
+    "points_list": {
+      "kicker": "Мастерская",
+      "title": "Мои точки",
+      "subtitle": "Каждая точка — отдельный склад и портфолио. Управляйте ими параллельно.",
+      "create": "Создать точку",
+      "create_short": "Создать",
+      "loading": "Загружаем…",
+      "empty_title": "Ни одной точки пока",
+      "empty_text": "Создайте первую — добавьте имя, адрес и обложку.",
+      "flowers_count": "{{count}} цветов",
+      "bouquets_count": "{{count}} букетов",
+      "create_toast": "Точка создана.",
+      "error_default": "Не удалось создать",
+      "dialog": {
+        "title": "Создать точку",
+        "image_hint": "Обложка точки. JPG/PNG до 5 МБ.",
+        "name": "Название",
+        "name_placeholder": "Сад на Достык",
+        "address": "Адрес",
+        "address_placeholder": "Алматы, пр. Достык 89",
+        "description": "Описание",
+        "description_placeholder": "Камерная мастерская в центре города…",
+        "cancel": "Отмена",
+        "creating": "Создаём…",
+        "create": "Создать"
+      },
+      "validation": {
+        "name_min": "Слишком коротко",
+        "address_min": "Укажите адрес"
+      }
+    },
+    "point_detail": {
+      "back": "Все точки",
+      "loading": "Загружаем…",
+      "change_cover": "Сменить обложку",
+      "stats": "{{flowers}} цветов · {{bouquets}} букетов",
+      "tabs": {
+        "flowers": "Склад",
+        "portfolio": "Портфолио"
+      },
+      "add_bouquet": "Добавить букет",
+      "add_flower": "Добавить цветок",
+      "add": "Добавить",
+      "empty_flowers_title": "Склад пока пуст",
+      "empty_flowers_text": "Добавьте первые стебли — это нужно для портфолио и AI-генерации.",
+      "empty_portfolio_title": "Портфолио пустует",
+      "empty_portfolio_text": "Соберите готовые композиции из своего склада. Клиенты увидят их в карточке точки.",
+      "confirm_remove_flower": "Удалить «{{name}}» со склада?",
+      "confirm_remove_bouquet": "Удалить «{{name}}» из портфолио?",
+      "cover_updated_toast": "Обложка обновлена.",
+      "flower_removed_toast": "Цветок удалён.",
+      "bouquet_removed_toast": "Букет удалён из портфолио.",
+      "error_default": "Не удалось",
+      "flower_dialog": {
+        "title_new": "Новый цветок",
+        "title_edit": "Редактировать цветок",
+        "image_required": "Загрузите изображение",
+        "name": "Название",
+        "name_placeholder": "Роза Pink O'Hara",
+        "price_per_stem": "Цена за стебель",
+        "quantity": "Количество",
+        "color_tags": "Цветовые теги",
+        "color_tags_required": "Хотя бы один цвет",
+        "description": "Описание",
+        "description_placeholder": "Душистая садовая роза…",
+        "cancel": "Отмена",
+        "saving": "Сохраняем…",
+        "save": "Сохранить",
+        "add": "Добавить",
+        "added_toast": "Цветок добавлен.",
+        "updated_toast": "Цветок обновлён."
+      },
+      "bouquet_dialog": {
+        "title": "Новый букет в портфолио",
+        "no_flowers": "Сначала добавьте цветы на склад, чтобы собрать букет.",
+        "image_required": "Загрузите изображение",
+        "name": "Название",
+        "name_placeholder": "Утро в саду",
+        "description": "Описание",
+        "price": "Цена",
+        "calc_total": "Расчёт по составу",
+        "color_tags": "Цветовые теги",
+        "composition": "Состав",
+        "composition_required": "Добавьте хотя бы один цветок",
+        "composition_empty": "Пока пусто. Добавьте хотя бы один цветок.",
+        "add_flower": "Добавить цветок",
+        "cancel": "Отмена",
+        "saving": "Сохраняем…",
+        "add": "Добавить",
+        "added_toast": "Букет добавлен в портфолио."
+      }
+    },
+    "orders_list": {
+      "kicker": "Входящие",
+      "title": "Заявки",
+      "subtitle": "Принимайте, собирайте, выдавайте — статус двигается одной кнопкой.",
+      "loading": "Загружаем…",
+      "empty_title": "Тишина в почте",
+      "empty_text": "Когда клиенты пришлют заявку — она появится здесь.",
+      "table": {
+        "order": "Заявка",
+        "point": "Точка",
+        "source": "Источник",
+        "total": "Сумма",
+        "status": "Статус",
+        "created": "Создан"
+      },
+      "source_ai": "AI",
+      "source_portfolio": "портфолио",
+      "status_filter": {
+        "all": "Все статусы",
+        "pending": "Ожидают",
+        "accepted": "Приняты",
+        "in_progress": "В сборке",
+        "ready_for_pickup": "Готовы",
+        "completed": "Завершены",
+        "declined": "Отклонены",
+        "cancelled": "Отменены клиентом",
+        "cancelled_by_florist": "Отменены вами",
+        "rejected_by_client": "Отказ клиента"
+      }
+    },
+    "order_detail": {
+      "back": "Все заявки",
+      "loading": "Загружаем…",
+      "source_ai": "AI-композиция",
+      "source_portfolio": "Букет из портфолио",
+      "ai_variant": "AI вариант #{{n}}",
+      "ai_budget": "Бюджет клиента: {{budget}}",
+      "from_portfolio": "Из портфолио",
+      "client_message_label": "Сообщение клиента",
+      "composition_title": "Состав",
+      "total": "Итого",
+      "result_title": "Готовый букет",
+      "result_subtitle": "Передан клиенту на проверку.",
+      "result_alt": "Готовый букет",
+      "actions_title": "Действия",
+      "accept": "Принять",
+      "decline": "Отклонить",
+      "start": "Начать сборку",
+      "cancel": "Отменить",
+      "ready_cta": "Готов — загрузить фото",
+      "waiting_pickup": "Ждём подтверждения клиента — он принимает или отказывается.",
+      "closed": "Заказ закрыт. Действий больше нет.",
+      "timeline_title": "Хронология",
+      "client_title": "Клиент",
+      "accept_toast": "Заказ принят. Склад списан.",
+      "start_toast": "Сборка начата.",
+      "decline_toast": "Заказ отклонён.",
+      "cancel_toast": "Заказ отменён, цветы возвращены на склад.",
+      "ready_toast": "Букет отмечен как готовый.",
+      "out_of_stock_title": "Не хватает цветов на складе",
+      "shortage_line": "· {{name}}: нужно {{needed}}, есть {{have}}",
+      "accept_failed": "Не удалось принять",
+      "error_default": "Не удалось",
+      "decline_dialog": {
+        "title": "Причина отказа",
+        "placeholder": "Например: нет нужных цветов на складе сегодня.",
+        "cancel": "Отмена",
+        "confirm": "Отклонить"
+      },
+      "cancel_dialog": {
+        "title": "Отменить заказ",
+        "subtitle": "Цветы вернутся на склад автоматически.",
+        "placeholder": "Объясните клиенту, почему отменяете.",
+        "keep": "Не отменять",
+        "confirm": "Отменить"
+      },
+      "ready_dialog": {
+        "title": "Фото готового букета",
+        "subtitle": "Клиент увидит это фото и подтвердит выдачу.",
+        "cancel": "Отмена",
+        "confirm": "Передать клиенту"
+      }
+    }
+  },
+  "admin": {
+    "users": {
+      "kicker": "Управление",
+      "title": "Пользователи",
+      "subtitle": "Создавайте, редактируйте и контролируйте доступ всех ролей.",
+      "create": "Создать пользователя",
+      "search_placeholder": "Поиск по email или имени",
+      "loading": "Загружаем…",
+      "empty_title": "Никого не нашли",
+      "empty_text": "Попробуйте сменить фильтры или сбросить поиск.",
+      "filters": {
+        "all_roles": "Все роли",
+        "all_statuses": "Все статусы",
+        "active": "Активные",
+        "inactive": "Заблокированные"
+      },
+      "table": {
+        "name": "Имя",
+        "email": "Email",
+        "role": "Роль",
+        "status": "Статус",
+        "created": "Создан",
+        "you_badge": "это вы",
+        "active": "Активен",
+        "inactive": "Заблокирован",
+        "edit": "Изменить",
+        "delete": "Удалить"
+      },
+      "role_label": {
+        "superadmin": "Супер-админ",
+        "floristadmin": "Флорист",
+        "consumer": "Клиент"
+      },
+      "delete_dialog": {
+        "title": "Удалить пользователя навсегда?",
+        "description": "Это удалит {{email}} и каскадно сотрёт все связанные данные: заказы, уведомления, AI-генерации, refresh-токены. Если это флорист — также удалятся все его точки, цветы и портфолио. Восстановить нельзя.",
+        "cancel": "Отмена",
+        "deleting": "Удаляем…",
+        "confirm": "Удалить навсегда",
+        "success": "Пользователь и все его данные удалены навсегда.",
+        "error": "Не удалось удалить"
+      },
+      "create_dialog": {
+        "title": "Создать пользователя",
+        "subtitle": "Любая роль. Email должен быть уникальным.",
+        "name": "Имя",
+        "role": "Роль",
+        "email": "Email",
+        "phone": "Телефон",
+        "password": "Пароль",
+        "cancel": "Отмена",
+        "creating": "Создаём…",
+        "create": "Создать",
+        "success": "Пользователь создан.",
+        "error": "Не удалось создать пользователя"
+      },
+      "edit_dialog": {
+        "title": "Редактировать пользователя",
+        "name": "Имя",
+        "phone": "Телефон",
+        "role": "Роль",
+        "active": "Активен",
+        "cancel": "Отмена",
+        "saving": "Сохраняем…",
+        "save": "Сохранить",
+        "success": "Изменения сохранены.",
+        "error": "Не удалось обновить"
+      }
+    }
+  },
+  "superadmin": {
+    "ai_config": {
+      "kicker": "AI · Pipeline",
+      "title": "Конфигурация генерации",
+      "subtitle": "Промпты, сэмплер, размер картинки и поведение LLM. Изменения применяются к новым генерациям без перезапуска.",
+      "updated": "Обновлено: {{date}}",
+      "save_toast": "Конфигурация обновлена",
+      "save_error": "Не удалось сохранить",
+      "reset_toast": "Сброшено к значениям по умолчанию",
+      "reset_error": "Не удалось сбросить",
+      "footer": {
+        "dirty": "Есть несохранённые изменения",
+        "clean": "Без изменений",
+        "reset": "Сбросить к умолчанию",
+        "cancel": "Отменить",
+        "save": "Сохранить",
+        "saving": "Сохранение…"
+      },
+      "reset_dialog": {
+        "title": "Сбросить конфигурацию?",
+        "description": "Все поля вернутся к значениям по умолчанию (system prompt, negative prompt, sampler, размеры, бюджет, температура, retries). Это действие нельзя отменить кнопкой Undo, но вы можете сохранить текущие значения вручную перед сбросом.",
+        "cancel": "Отмена",
+        "confirm": "Сбросить",
+        "resetting": "Сброс…"
+      },
+      "pipeline": {
+        "title": "Pipeline",
+        "subtitle": "SDXL (Juggernaut-XL v9) — лучшее качество, больше распознаваемых цветов в кадре, корректные руки. SD 1.5 (DreamShaper 8) — быстрее на слабых GPU, fallback при проблемах.",
+        "version_label": "Версия pipeline",
+        "version_sdxl": "SDXL — Juggernaut-XL v9 (рекомендуется)",
+        "version_sd15": "SD 1.5 — DreamShaper 8 (legacy)"
+      },
+      "system_prompt": {
+        "title": "System prompt LLM",
+        "subtitle": "Главная инструкция флористу-LLM. Содержит правила бюджета, состава, формата ответа.",
+        "counter": "{{count}} / 8000 символов"
+      },
+      "sd": {
+        "title": "Stable Diffusion",
+        "subtitle": "Negative prompt и параметры KSampler. Размер картинки — кратен 8.",
+        "negative_label": "Negative prompt",
+        "sampler_label": "Sampler",
+        "steps_label": "Steps (1–150)",
+        "cfg_label": "CFG (1.0–30.0)",
+        "width_label": "Ширина (кратна 8)",
+        "height_label": "Высота (кратна 8)",
+        "max_refs_label": "IPAdapter референсов (1–10)",
+        "max_refs_hint": "Сколько фотографий выбранных цветов передаётся в IPAdapter. Чем больше — тем больше уникальных цветов реально появится в кадре, но тем медленнее рендер."
+      },
+      "budget": {
+        "title": "Бюджет",
+        "subtitle": "Допустимое отклонение суммы букета от бюджета клиента. 0.6 = -40%, 1.4 = +40%. Lower < Upper.",
+        "lower_label": "Нижняя граница",
+        "upper_label": "Верхняя граница"
+      },
+      "llm": {
+        "title": "Поведение LLM",
+        "subtitle": "Температура — стохастичность ответов (0–2). Retries — сколько раз повторить запрос при ошибке валидации.",
+        "temp_label": "Temperature (0.0–2.0)",
+        "retries_label": "Max retries (1–20)"
+      }
+    }
+  }
+}

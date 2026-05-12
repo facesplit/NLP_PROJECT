@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Project
+.superpowers/
+.claude/
+# Local AI install (large binaries, models, custom_nodes — don't commit)
+ai/
+ai/_tools/
+ai/_models_staging/
+ai/ComfyUI_windows_portable/
+
+.playwright-mcp/
+.docs/
+.serena/

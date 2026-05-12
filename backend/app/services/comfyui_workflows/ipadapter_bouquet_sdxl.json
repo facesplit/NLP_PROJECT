@@ -1,0 +1,87 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "Juggernaut-XL_v9.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPVisionLoader",
+    "inputs": {
+      "clip_name": "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+    }
+  },
+  "3": {
+    "class_type": "IPAdapterUnifiedLoader",
+    "inputs": {
+      "preset": "PLUS (high strength)",
+      "model": ["1", 0]
+    }
+  },
+  "30": {
+    "class_type": "IPAdapterAdvanced",
+    "inputs": {
+      "weight": 0.55,
+      "weight_type": "linear",
+      "combine_embeds": "concat",
+      "start_at": 0.0,
+      "end_at": 0.6,
+      "embeds_scaling": "V only",
+      "model": ["3", 0],
+      "ipadapter": ["3", 1],
+      "image": ["10", 0],
+      "clip_vision": ["2", 0]
+    }
+  },
+  "40": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": ["1", 1],
+      "text": "POSITIVE_PROMPT_PLACEHOLDER"
+    }
+  },
+  "41": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": ["1", 1],
+      "text": "blurry, low quality, watermark, text, deformed, ugly, cartoon, illustration, plastic flowers, wilted, dried, oversaturated, jpeg artifacts, frame, border, extra fingers, missing fingers, deformed hands, six fingers, fused fingers, mutated fingers, malformed hand, mutated, distorted limbs"
+    }
+  },
+  "50": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "60": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 0,
+      "steps": 32,
+      "cfg": 6.0,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["30", 0],
+      "positive": ["40", 0],
+      "negative": ["41", 0],
+      "latent_image": ["50", 0]
+    }
+  },
+  "70": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["60", 0],
+      "vae": ["1", 2]
+    }
+  },
+  "80": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["70", 0],
+      "filename_prefix": "boquet/PLACEHOLDER"
+    }
+  }
+}

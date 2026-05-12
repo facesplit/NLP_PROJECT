@@ -1,0 +1,22 @@
+import type { SVGProps } from "react";
+
+export function Sprig({ className, ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      className={className}
+      {...props}
+    >
+      <path d="M32 56 C 32 40, 26 28, 20 18" />
+      <path d="M30 48 C 26 46, 23 47, 22 50" />
+      <path d="M30 40 C 35 38, 38 40, 39 44" />
+      <path d="M28 32 C 24 30, 22 32, 22 36" />
+      <path d="M27 24 C 31 21, 34 22, 35 26" />
+      <circle cx="20" cy="18" r="3" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
